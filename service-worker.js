@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/guidanceRequestPrototype.github.io/sdmm-guidance-form-prototype/precache-manifest.cdab2538420c7b8d81b6df57cbc31019.js"
+  "/guidanceRequestPrototype.github.io/guidanceRequestPrototype/precache-manifest.a00449627a9262765c623fe4ed28206f.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/guidanceRequestPrototype.github.io/sdmm-guidance-form-prototype/index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/guidanceRequestPrototype.github.io/guidanceRequestPrototype/index.html"), {
   
   blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });
